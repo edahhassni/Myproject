@@ -1,0 +1,40 @@
+body{
+text-align: center;
+}
+.grid-container
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-areas: 
+ " itemh1 itemh1 itemh1 itemh1"
+  ;
+}
+.grid-container  >  .item
+{
+  background-color: #10d1bf;
+
+}
+
+.itemh1
+{
+  grid-area: itemh1;
+  background-color: #10d1bf;
+}
+.itemh1
+{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.header
+{
+  display: flex;
+  background-color: #10d1bf;
+  justify-content: space-between;
+}
+ul 
+{
+  list-style: none;
+  width: 100%;
+}
